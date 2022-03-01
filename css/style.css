@@ -1,39 +1,111 @@
-*
-{
-    font-family:
-
-}
-.logo a img
-{
-    margin-left: 20px;
-    margin-top: 20px;
-    width: 4%;
+*{
+    font-family: 'Raleway', sans-serif;
 }
 
-.menu 
-{
-    text-align: right;
-    margin-top: -40px;
-    margin-bottom: 50px;
+body{
+    margin: 0px;
+}
+
+header{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div.logo a img {
+    width: 50%;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+    padding-top: 25px;
+}
+
+header nav ul li a:hover {
+    color: #0065FC;
+    border-top: 6px solid #0065FC;
+}
+
+
+
+
+
+main {
+    margin-left: 50px;
+}
+#recherche_ville i, #recherche_ville input{
+    margin-right: -1px;   
+}
+#icentre{
+    background-color: transparent;
+    border-top:solid 1px  #F2F2F2;
+    border-bottom: solid 1px #F2F2F2;
+    border-left: none;
+    border-right: none;
+}
+#icentre::placeholder{
+    color: black;
 
 }
-.menu ul
-{
-    list-style-type:none;
+#idroite{
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
 }
-.menu ul li
-{
-    float: right;
-    margin-left: 4%;
+
+#recherche_ville input{
+    padding:18px 1% 18px 1%;
+}
+.fa-location-dot{
+    border:  20px solid #F2F2F2;
+    border-radius: 40px 10px 10px 40px;
+}
+
+#iconelist div{
+    border: solid 3px #F2F2F2;
+    width: max-content;
+    height: max-content;
+    border-radius: 20px;
+    display: grid;
+    grid-column-gap:12% ;
+    grid-template-columns: 5% 95%;
+    text-align: center;
+    font-weight: bold;
+
+}
+#iconelist div i{
+    background-color:#DEEBFF;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    color:#0065FC;   
+
+
+}
+#iconelist{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+    width: 50%;
+    margin-top: 50px;
     
 }
-.menu ul li a:hover
-{
-    border-top:solid 1px blue;
-
-}
-.menu ul li a
-{
-    padding-top: 20px;
-}
-

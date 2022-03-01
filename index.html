@@ -25,10 +25,10 @@
 
 <body>
 
-    <head>
+    <header>
         <div class="logo">
             <a href="index.html">
-                <img src="images/logo/Booki.png" alt="Logo du site Booki">
+                <img src="images/logo/Booki@3x.png" alt="Logo du site Booki">
             </a>
         </div>
 
@@ -38,24 +38,24 @@
                     <a href="#hebergements">Hébergements</a>
                 </li>
 
-                <li style="float:none">
+                <li>
                     <a href="#activites">Activités</a>
                 </li>
             </ul>
         </nav>
 
-    </head> 
+    </header> 
 
     <main>
         <section>
             <h1>Trouvez votre hébergement pour des vacances de reve</h1>
             <p>En plein centre ville ou en pleine nature </p>
-            <form>
+            <form id="recherche_ville">
                 <i class="fa-solid fa-location-dot"></i>
-                <input type="text" name=text" class="search" placeholder="Marseille,France">
-                <input type="submit" name="submit" class="submit" value="Rechercher">
+                <input id="icentre" type="text" name=text" class="search" placeholder="Marseille,France">
+                <input id="idroite"type="submit" name="submit" class="submit" value="Rechercher">
             </form>
-            <div>
+            <div id="iconelist">
                 <h3>Filtres</h3>
                 <div> <i class="fa-solid fa-money-bill-wave"></i> <a>Economique</a></div>
                 <div> <i class="fa-solid fa-child"></i> <a>Familial</a> </div>
