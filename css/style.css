@@ -130,75 +130,166 @@ main {
     padding-right: 14px;
 }
 
-#act{
-    background-color: #F2F2F2;
-    width: 70%;
-    border-radius: 20px;
-    margin-left: 20px;
-    font-size: 0.8em; 
-    margin-bottom: 20px;
-}
-.home{
-    border:solid 10px white;
-    border-radius: 20px;
-    background-color: white;
-    margin-right: 5%;
-    max-width: 80%;
-    color: black;
-}
-.home:hover{
-    cursor: pointer;
-    background-color: #DEEBFF;
-    border: 2px solid #DEEBFF;
-}
-img{
-     max-width: 101%;
-     max-height: 80%;
-     border: solid 2px transparent;
-     border-radius: 20px 20px 0px 0px;
-     margin-top: -2%;
-     margin-left: -1%;
- }
- .allact{
-     display:flex;
-     margin-left: 5%;
-     margin-bottom: 3%;
- }
- .allact2{
-     display: flex;
-     margin-left: 5%;
-    }
-a{
-    text-decoration: none;
+.fa-solid.fa-circle-info{
+    background: #0065FC;
+    color: white;
+    border-radius: 33px;
+    border: gray 1px solid;
 }
 
- .pop{
-     background-color: #F2F2F2;
-     width: 30%;
-     border-radius: 20px;
-    margin-left: 20px;
-    font-size: 0.8em; 
+/* Section Hébergements a Marseille et les plus populaires */
+
+#hebergements-populaires{
     display: flex;
-    flex-direction: column;
- }
-.home1:hover{
-    cursor: pointer;
-    background-color: #DEEBFF;
-    border: 2px solid #DEEBFF;
+    justify-content: space-between;
 }
-.allpop{
-    display:flex;
-    margin-left: 5%;
-    margin-bottom: 3%;
-    flex-direction: column;
 
-
+#hebergements-marseilles{
+    width: 65%;
+    /* display: flex; */
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 1% 2%;
 }
-.home1{
-    border: solid 10px white;
-    border-radius: 20px;
+
+.hebergements-cards{
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hebergements-cards a{
+    text-decoration: none;
+    color: black;
+    width: 31%;
+}
+
+.hebergements-card {
     background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10%;
+}
+
+.hebergements-card-img img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.hebergements-card-description{
+    margin-left: 15px;
+}
+
+.hebergements-card-description .rate{
+    color: #0065FC;
+}
+
+.hebergements-card-description p, .hebergements-card-description h3{
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.afficher-plus{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.afficher-plus:hover{
+    color: #0065FC;
+}
+
+.fa-solid.fa-star{
+    color: gray;
+}
+
+.fa-solid.fa-star.rate-fa-blue{
+    color: #0065FC;
+}
+
+#populaires-marseilles{
+    width: 25%;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 1% 2%;
+}
+
+.populaires-cards a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+.populaires-card{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+
+}
+
+.populaires-card-img{
+    width: 40%;
     margin-right: 5%;
-    max-width: 80%;
+}
+
+.populaires-card-img img{
+    width: 89%;
+    height: 91%;
+    margin: 3%;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px;
+
+}
+.populaires-cards p{
+    margin-bottom: 17%;
+}
+.fa-arrow-trend-up:before {
+    content: "\e098";
+    border-bottom: solid 2px black;
+    border-left: 2px solid;
+    margin-left: 241px
+}
+#activites-populaire{
+    display: flex;
+    justify-content: space-between;
+}
+#activites-marseilles{
+    width: 65%;
+    /* display: flex; */
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 1% 2%;
+}
+.activites-cards{
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.activites-card-img img{
+    width: 100%;
+    height: 285px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+.activites-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 8%;
+    width: 93%;
+}
+.activites-cards a{
+    text-decoration: none;
     color: black;
 }
