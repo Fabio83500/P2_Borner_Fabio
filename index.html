@@ -35,11 +35,11 @@
         <nav class="menu">
             <ul>
                 <li>
-                    <a href="#hebergements">Hébergements</a>
+                    <a href="#hebergements-marseilles">Hébergements</a>
                 </li>
 
                 <li>
-                    <a href="#activites">Activités</a>
+                    <a href="#activites-marseille">Activités</a>
                 </li>
             </ul>
         </nav>
@@ -209,7 +209,12 @@
                 </div>
             </div>
             <div id="populaires-marseilles">
-                <h3>Les plus populaires <i class="fa-solid fa-arrow-trend-up"></i></h3>
+                <h2>
+                    Les plus populaires
+                    <span>
+                        <i class="fas fa-chart-line"></i>
+                    </span>
+                </h2>
                 <div class="populaires-cards">
                     <a href="#">
                         <article class="populaires-card">
@@ -275,12 +280,16 @@
             </div>
         </section>
 
-        <section id="activites-populaire">
-            <div id="activites-marseille">
+        <section id="activites-marseille">
+            <div class="titreAct">
                 <h2>Activités a Marseille</h2>
-                <div class="activites-cards">
+            </div>        
+            <div class="activites-cards">
+
+                <div class="activites-card-colonne">
+
                     <a href="#">
-                        <article class="activites-card">
+                        <article class="activites-card-line1">
                             <div class="activites-card-img">
                                 <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
                                     alt="ActN1" />
@@ -292,25 +301,42 @@
                         </article>
                     </a>
 
+                </div>
+
+                <div class="activites-card-colonne">
+
                     <a href="#">
-                        <article class="activites-card">
+                        <article class="activites-card-line2">
                             <div class="activites-card-img">
-                                <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="ActN2" />
+                                <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                                    alt="ActN2" />
                             </div>
+
                             <div class="activites-card-description">
                                 <h3>Fort de Pomègues</h3>
-                            </div>
-                            <div class="activites-card-img">
-                                <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="ActN3" />
-                            </div>
-                            <div class="activites-card-description">
-                                <h3>Iles de Frioul</h3>
                             </div>
                         </article>
                     </a>
 
                     <a href="#">
-                        <article class="activites-card">
+                        <article class="activites-card-line3">
+                            <div class="activites-card-img">
+                                <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                                    alt="ActN3" />
+                            </div>
+
+                            <div class="activites-card-description">
+                                <h3>Iles du Frioul</h3>
+                            </div>
+                        </article>
+                    </a>
+
+                </div>
+
+                <div class="activites-card-colonne">
+
+                    <a href="#">
+                        <article class="activites-card-line1">
                             <div class="activites-card-img">
                                 <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                                     alt="ActN4" />
@@ -322,90 +348,105 @@
                         </article>
                     </a>
 
+                </div>
+
+                <div class="activites-card-colonne">
+
                     <a href="#">
-                        <article class="activites-card">
+                        <article class="activites-card-line3">
                             <div class="activites-card-img">
                                 <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                                     alt="ActN5" />
                             </div>
+
                             <div class="activites-card-description">
                                 <h3>Notre-Dame-de-la-Garde</h3>
                             </div>
+                        </article>
+                    </a>
+
+                    <a href="#">
+                        <article class="activites-card-line2">
                             <div class="activites-card-img">
-                                <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="ActN6" />
+                                <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                                    alt="ActN6" />
                             </div>
+
                             <div class="activites-card-description">
                                 <h3>Parc Longchamp</h3>
                             </div>
                         </article>
                     </a>
-
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <div>
-            <h3>A propos</h3>
-            <ul>
-                <li>
-                    <a href="#">
-                        Fonctionnement du site
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-                        Condition générales de vente
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-                        Données et confidentialité
-                    </a>
-                </li>
-            </ul>
+        <div class="foot">
+            <div class="foottext1">
+                <h3>A propos</h3> 
+                <ul>
+                    <li>
+                        <a href="#">
+                            Fonctionnement du site
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="#">
+                            Condition générales de vente
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="#">
+                            Données et confidentialité
+                        </a>
+                    </li>
+                </ul>
+    
+            </div>
+    
+            <div>
+                <h3>Nos hébergements</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Charte qualité
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="#">
+                            Soumettre votre hotel
+                        </a>
+                    </li>
+                </ul>
+    
+            </div>
+    
+            <div class="textfoot3">
+                <h3>Assistance</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Centre d'aide
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Nous contacter
+                        </a>
+                    </li>
+                </ul>
+    
+            </div>
 
         </div>
-
-        <div>
-            <h3>Nos hébergements</h3>
-            <ul>
-                <li>
-                    <a href="#">
-                        Charte qualité
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-                        Soumettre votre hotel
-                    </a>
-                </li>
-            </ul>
-
-        </div>
-
-        <div>
-            <h3>Assistance</h3>
-            <ul>
-                <li>
-                    <a href="#">
-                        Centre d'aide
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Nous contacter
-                    </a>
-                </li>
-            </ul>
-
-        </div>
+        
     </footer>
+
     <script src="https://kit.fontawesome.com/ad864598e5.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
