@@ -461,10 +461,16 @@ main {
         padding: 5%;
         border-radius: 0px; 
     }
+
+    #activites-marseille{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+
     .titreAct{
         margin-left: 24px;
     }
-
     
     .activites-marseille{
     width: 90%;
@@ -477,7 +483,8 @@ main {
         width: 100%;
         justify-content: space-between;
         flex-direction: column;
-        margin-left: 15px;
+        align-content: center;
+        align-items: center;
 
     }
     .hebergements-card {
@@ -493,13 +500,15 @@ main {
         justify-content: space-between;
         width:90%;
         height: auto;
-        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+        /* box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px; */
         margin-bottom: 20px;
         margin-left: 9px;
         border-radius: 30px;
     }
     .activites-card-colonne a {
         box-shadow: none;
+        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+        margin-bottom: 20px;
     }
     .activites-card-line1 img{
         height: 200px;
@@ -516,11 +525,11 @@ main {
         height: 200px; 
     }
     .activites-card-line2 {
-        height: 0px
+        /* height: 0px */
         margin-bottom:10px;
     }
     .activites-card-line3 {
-        height: 0px
+        /* height: 0px */
         margin-bottom:10px;
     }
 
@@ -533,6 +542,11 @@ main {
     .foottext1 {
         margin-left: 0px;
     }
+
+    .textfoot3 {
+        margin-right: 0px;
+    }
+
 
 
 
