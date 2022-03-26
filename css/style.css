@@ -547,9 +547,57 @@ main {
         margin-right: 0px;
     }
 
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #iconelist {
+        display: flex;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+       
+    
+#hebergements-populaires {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    }
 
+    #hebergements-marseilles {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    #populaires-marseilles {
+        width: 100%;
+    }
+    .populaires-card-img img {
+        width: 80%;
+        margin: 2%;
+    }
 
-
-
+    .activites-cards{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .activites-card-colonne{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 46%;
+        height: 500px;
+        margin-bottom: 5%;
+    }
+    .foot {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100%;
+    } 
+    
 }
 
